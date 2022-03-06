@@ -7,6 +7,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     padding: 0;
     margin: 0;
+    background-color: aliceblue;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
 .logo-section {
     width: 40vw;
     height: 100vh;
-    background: center/100% url(./images/salman-mukti-7JOX1nwG2hw-unsplash.jpg);
+    background: center url(./images/salman-mukti-7JOX1nwG2hw-unsplash.jpg);
 }
 
 .logo {
@@ -50,3 +51,79 @@ body {
 .photo-credits a {
     color: white;
 }
+
+.form-container {
+    width: 58.3vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    width: 50vw;
+    margin: 32px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+input {
+    height: 32px;
+}
+
+.forms {
+    background-color: white;
+    width: 100%;
+    padding: 32px 0 32px 32px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-element {
+    flex: 1 0 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 64px 16px 16px;
+}
+
+.buttons, 
+.already {
+    margin: 16px;
+}
+
+.buttons button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #5995DA;
+  
+    border: none;
+    border-radius: 4px;
+  
+    padding: 20px 30px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #76AEED;
+  }
+  
+  .buttons button:active {
+    background-color: #407FC7;
+  }
