@@ -79,6 +79,12 @@ label {
 
 input {
     height: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+.form-element input:focus {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);;
 }
 
 .forms {
@@ -89,7 +95,7 @@ input {
 }
 
 form {
-    width: 50vw;
+    width: 40vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -98,7 +104,7 @@ form {
     flex: 1 0 40%;
     display: flex;
     flex-direction: column;
-    margin: 16px 64px 16px 16px;
+    margin: 16px 32px 16px 16px;
 }
 
 .buttons, 
@@ -118,12 +124,14 @@ form {
   
     padding: 20px 30px;
     cursor: pointer;
-  }
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
   
-  .buttons button:hover {
+.buttons button:hover {
     background-color: #76AEED;
-  }
-  
-  .buttons button:active {
+}
+
+.buttons button:active {
     background-color: #407FC7;
-  }
+}
